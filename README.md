@@ -1,4 +1,4 @@
-# README: Manual TLE Input Script
+# README: Ground Tracking with manual TLE input
 
 ## Overview
 
