@@ -158,7 +158,7 @@ ax.plot(coastline_lon, coastline_lat, 'k-', linewidth=0.5)
 ax.plot(np.degrees(lon), np.degrees(lat), 'b.', markersize=1)
 
 # Add text annotation at a specific location
-ax.text(0.95, 0.05, "Giray Ekici / Aselsan HBT/ Uydu Entegrasyon", transform=ax.transAxes, fontsize=8,
+ax.text(0.95, 0.05, "Giray Ekici", transform=ax.transAxes, fontsize=8,
         verticalalignment='bottom', horizontalalignment='right',
         bbox=dict(facecolor='white', alpha=0.5, boxstyle='round,pad=0.2'))
 
