@@ -75,7 +75,7 @@ def read_coastline_data(filename):
                 lats.append(lat)
     return np.array(lons), np.array(lats)
 
-# TLE data for ISS
+# TLE data for any LEO satellite
 tle_line1 = '1 62008U 24213A   24349.83334491 -.00008862  00000+0 -50208-4 0  9999'
 tle_line2 = '2 62008  53.1565 101.7473 0001160  60.5010 220.3147 15.76727001  5455'
 line1 = (tle_line1)
